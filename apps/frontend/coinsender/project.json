@@ -1,0 +1,85 @@
+{
+  "name": "frontend-coinsender",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/frontend/coinsender",
+  "projectType": "application",
+  "targets": {
+    "build": {
+      "executor": "@nrwl/webpack:webpack",
+      "outputs": ["{options.outputPath}"],
+      "defaultConfiguration": "production",
+      "options": {
+        "compiler": "babel",
+        "outputPath": "dist/apps/frontend/coinsender",
+        "index": "apps/frontend/coinsender/index.html",
+        "baseHref": "/",
+        "main": "apps/frontend/coinsender/main.tsx",
+        "polyfills": "apps/frontend/coinsender/polyfills.ts",
+        "tsConfig": "apps/frontend/coinsender/tsconfig.app.json",
+        "assets": [
+          "apps/frontend/coinsender/favicon.ico",
+          "apps/frontend/coinsender/assets"
+        ],
+        "styles": ["apps/frontend/coinsender/styles.css"],
+        "scripts": [],
+        "webpackConfig": "@nrwl/react/plugins/webpack"
+      },
+      "configurations": {
+        "development": {
+          "extractLicenses": false,
+          "optimization": false,
+          "sourceMap": true,
+          "vendorChunk": true
+        },
+        "production": {
+          "fileReplacements": [
+            {
+              "replace": "apps/frontend/coinsender/environments/environment.ts",
+              "with": "apps/frontend/coinsender/environments/environment.prod.ts"
+            }
+          ],
+          "optimization": true,
+          "outputHashing": "all",
+          "sourceMap": false,
+          "namedChunks": false,
+          "extractLicenses": true,
+          "vendorChunk": false
+        }
+      }
+    },
+    "serve": {
+      "executor": "@nrwl/webpack:dev-server",
+      "defaultConfiguration": "development",
+      "options": {
+        "buildTarget": "frontend-coinsender:build",
+        "hmr": true,
+        "port": 3002
+      },
+      "configurations": {
+        "development": {
+          "buildTarget": "frontend-coinsender:build:development"
+        },
+        "production": {
+          "buildTarget": "frontend-coinsender:build:production",
+          "hmr": false
+        }
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["apps/frontend/coinsender/**/*.{ts,tsx,js,jsx}"]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/apps/frontend/coinsender"],
+      "options": {
+        "jestConfig": "apps/frontend/coinsender/jest.config.ts",
+        "passWithNoTests": true
+      }
+    }
+  },
+  "tags": []
+}

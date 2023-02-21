@@ -1,0 +1,89 @@
+{
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/frontend/dashboard",
+  "projectType": "application",
+  "targets": {
+    "build": {
+      "executor": "@nrwl/web:webpack",
+      "outputs": ["{options.outputPath}"],
+      "defaultConfiguration": "production",
+      "options": {
+        "compiler": "babel",
+        "outputPath": "dist/apps/frontend/dashboard",
+        "index": "apps/frontend/dashboard/index.html",
+        "baseHref": "/",
+        "main": "apps/frontend/dashboard/main.tsx",
+        "polyfills": "apps/frontend/dashboard/polyfills.ts",
+        "tsConfig": "apps/frontend/dashboard/tsconfig.app.json",
+        "assets": [
+          "apps/frontend/dashboard/favicon.png",
+          {
+            "input": "libs/shared/assets",
+            "glob": "**/*",
+            "output": "assets"
+          }
+        ],
+        "styles": ["apps/frontend/dashboard/styles.css"],
+        "scripts": [],
+        "postcssConfig": "../../../postcss.config.js",
+        "webpackConfig": "@nrwl/react/plugins/webpack"
+      },
+      "configurations": {
+        "development": {
+          "extractLicenses": false,
+          "optimization": false,
+          "sourceMap": true,
+          "vendorChunk": true
+        },
+        "production": {
+          "fileReplacements": [
+            {
+              "replace": "apps/frontend/dashboard/environments/environment.ts",
+              "with": "apps/frontend/dashboard/environments/environment.prod.ts"
+            }
+          ],
+          "optimization": true,
+          "outputHashing": "all",
+          "sourceMap": false,
+          "namedChunks": false,
+          "extractLicenses": true,
+          "vendorChunk": false
+        }
+      }
+    },
+    "serve": {
+      "executor": "@nrwl/web:dev-server",
+      "defaultConfiguration": "development",
+      "options": {
+        "buildTarget": "frontend-dashboard:build",
+        "port": 3000,
+        "hmr": true
+      },
+      "configurations": {
+        "development": {
+          "buildTarget": "frontend-dashboard:build:development"
+        },
+        "production": {
+          "buildTarget": "frontend-dashboard:build:production",
+          "hmr": false
+        }
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["apps/frontend/dashboard/**/*.{ts,tsx,js,jsx}"]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/apps/frontend/dashboard"],
+      "options": {
+        "jestConfig": "apps/frontend/dashboard/jest.config.ts",
+        "passWithNoTests": true
+      }
+    }
+  },
+  "tags": []
+}

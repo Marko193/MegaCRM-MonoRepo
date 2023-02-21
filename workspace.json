@@ -1,0 +1,15 @@
+{
+  "$schema": "./node_modules/nx/schemas/workspace-schema.json",
+  "version": 2,
+  "projects": {
+    "backend-dashboard": "apps/backend/dashboard",
+    "data-access": "libs/data-access",
+    "e2e-dashboard": "apps/e2e/dashboard",
+    "features": "libs/features",
+    "frontend-admin-panel": "apps/frontend/admin-panel",
+    "frontend-coinsender": "apps/frontend/coinsender",
+    "frontend-dashboard": "apps/frontend/dashboard",
+    "shared": "libs/shared",
+    "utilities": "libs/utilities"
+  }
+}

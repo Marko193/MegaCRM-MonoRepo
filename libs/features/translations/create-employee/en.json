@@ -1,0 +1,51 @@
+{
+  "generalInfo": {
+    "name": "Name",
+    "surname": "Surname",
+    "birthDate": "Birth Date",
+    "inn": "ITN",
+    "country": "Country",
+    "city": "City",
+    "children": "Children",
+    "gender": "Gender",
+    "merchSize": "Merch size",
+    "addedDate": "Added date"
+  },
+  "buttons": {
+    "delete": "Delete",
+    "back": "Back",
+    "add": "Add",
+    "next": "Next",
+    "upload": "Upload",
+    "create": "Create"
+  },
+  "workInfo": {
+    "position": "Position",
+    "level": "Level",
+    "formOfEmployment": "Form of employment",
+    "role": "Role",
+    "status": "Status",
+    "trial": "Trial period",
+    "language": "Language",
+    "technologies": "Technologies",
+    "assigneHr": "Assigne HR",
+    "assignePm": "Assigne PM",
+    "assigneSales": "Assigne Sales",
+    "rateM": "Rate/month",
+    "expectedPayLevel": "Expected payment level"
+  },
+  "contacts": {
+    "mainPhone": "Phone Number",
+    "additionalPhone": "Additional Number",
+    "personalEmail": "Email Address",
+    "corporateEmail": "Corporate Email",
+    "additionalEmail": "Additional Email",
+    "emergencyContact": "Emergency Contact",
+    "emergencyPhone": "Emergency Number"
+  },
+  "steps": {
+    "workInfo": "Work info",
+    "generalInfo": "General info",
+    "contacts": "Contacts"
+  }
+}

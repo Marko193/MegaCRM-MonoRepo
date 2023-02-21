@@ -1,0 +1,191 @@
+{
+  "testing": {
+    "testingKey": "This text is used to test the app."
+  },
+  "signInButton": "Sign In",
+
+  "menuItems": {
+    "delete": "Delete",
+    "edit": "Edit",
+    "active/inactive": "Active/Inactive",
+    "profile": "View Profile",
+    "resume": "View Resume"
+  },
+
+  "profileCard": {
+    "d": "d",
+    "startDate": "Start date",
+    "endDate": "End date",
+    "accept": "Accept",
+    "decline": "Decline",
+    "approve": "Approve",
+    "reject": "Reject",
+    "day": "day",
+    "ofDay": "days",
+    "ofDays": "days"
+  },
+
+  "balanceCard": {
+    "available.balance": "Available balance",
+    "settings": "Settings"
+  },
+
+  "cardRange": {
+    "startRange": "Start",
+    "endRange": "End"
+  },
+
+  "eventStatuses": {
+    "vacation": "Vacation",
+    "sickness": "Sick leave",
+    "parentalLeave": "Parental leave"
+  },
+
+  "categoryNames": {
+    "profile": "Profile",
+    "requests": "Requests",
+    "changePassword": "Change password",
+    "edit.profile": "Edit Profile",
+    "contacts": "Contacts",
+    "children": "Children",
+    "company.info": "Company info",
+    "general.info": "General info",
+    "employees.equipment": "Employee's equipment",
+    "technology.requests": "Technology requests",
+    "archive.requests": "Requests archive",
+    "statistic": "Statistic"
+  },
+
+  "companyInfo": {
+    "position": "Position",
+    "status": "Status",
+    "form.of.employment": "Form of employment",
+    "language": "Language",
+    "assignee.hr": "Assignee HR",
+    "assignee.pm": "Assignee PM",
+    "assignee.sales": "Assignee Sales",
+    "probation.status": "Probation Status",
+    "birth.date": "Birth Date",
+    "country": "Country"
+  },
+
+  "warehouseCategories": {
+    "inventory.number": "Inventory number",
+    "name": "Name of equipment",
+    "model": "Model",
+    "condition": "Condition",
+    "date_of_issue": "Date of issue",
+    "date_of_request": "Request date",
+    "warehouse.type": "Warehouse type",
+    "status": "Status"
+  },
+
+  "balanceCategories": {
+    "vacation": "Vacation",
+    "sickness": "Sickness",
+    "home.office": "Home office",
+    "parental.leave": "Parental leave",
+    "day.off": "Day off",
+    "business": "Business"
+  },
+
+  "requestsCategory": {
+    "request.type": "Request type",
+    "start.date": "Start date",
+    "end.date": "End date",
+    "requested.days": "Requested days",
+    "assignee": "Assignee",
+    "status": "Status",
+    "add.request": "Add request",
+    "type.request": "Type of request",
+    "new.request": "New request",
+    "comment": "Comment",
+    "type.smth": "Type smth if you need",
+    "vacation.requests": "Vacation and requests"
+  },
+  "password": {
+    "old": "Old password",
+    "new": "New password",
+    "repeat": "Repeat password",
+    "reset": "Reset password"
+  },
+  "buttons": {
+    "send": "Send",
+    "cancel": "Cancel"
+  },
+  "warehouseCategories": {
+    "inventory.number": "Inventory number",
+    "name": "Name of equipment",
+    "model": "Model",
+    "condition": "Condition",
+    "date_of_issue": "Date of issue",
+    "date_of_receiving": "Date of receiving",
+    "date_of_request": "Request date",
+    "type": "Warehouse type",
+    "status": "Status",
+    "warehouse": "Warehouse",
+    "all.technique": "All technique",
+    "add.technique": "Add technique",
+    "price": "Price",
+    "comment": "Comment"
+  },
+
+  "balanceCategories": {
+    "vacation": "Vacation",
+    "sickness": "Sickness",
+    "home.office": "Home office",
+    "parental.leave": "Parental leave",
+    "day.off": "Day off",
+    "business": "Business"
+  },
+
+  "requestsCategory": {
+    "request.type": "Request type",
+    "start.date": "Start date",
+    "end.date": "End date",
+    "requested.days": "Requested days",
+    "assignee": "Assignee",
+    "status": "Status",
+    "add.request": "Add request",
+    "type.request": "Type of request",
+    "new.request": "New request",
+    "comment": "Comment",
+    "type.smth": "Type smth if you need",
+    "vacation.requests": "Vacation and requests"
+  },
+  "password": {
+    "old": "Old password",
+    "new": "New password",
+    "repeat": "Repeat password",
+    "reset": "Reset password"
+  },
+  "buttons": {
+    "send": "Send",
+    "cancel": "Cancel",
+    "login": "Login",
+    "submit": "Submit",
+    "update": "Update"
+  },
+  "languages": {
+    "en": "EN",
+    "ru": "RU",
+    "ua": "UA"
+  },
+  "user": {
+    "fullname": "Full name",
+    "position": "Position",
+    "technologies": "Technologies",
+    "languages": "Languages",
+    "assigne": "Assigne",
+    "dateAdded": "Date added"
+  },
+  "form": {
+    "validation": {
+      "must.be.valid.email": "Must be valid email",
+      "field.required": "Field is required",
+      "length.must.eight": "Minimum password length is 8",
+      "wrong.email.format": "Wrong email format"
+    }
+  },
+  "welcomeBack": "Hi, Welcome Back"
+}

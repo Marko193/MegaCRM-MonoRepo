@@ -1,0 +1,137 @@
+{
+  "testing": {
+    "testingKey": "Цей текст повинен бути на укр."
+  },
+  "signInButton": "Увійти",
+  "menuItems": {
+    "delete": "Видалити",
+    "edit": "Редагувати",
+    "active/inactive": "Активувати/Деактивувати",
+    "profile": "Переглянути профіль",
+    "resume": "Переглянути резюме"
+  },
+  "profileCard": {
+    "d": "д",
+    "startDate": "Дата початку",
+    "endDate": "Дата закінчення",
+    "accept": "Прийняти",
+    "decline": "Відхилити",
+    "approve": "Затвердити",
+    "reject": "Відхилити",
+    "day": "день",
+    "ofDay": "дні",
+    "ofDays": "днiв"
+  },
+  "balanceCard": {
+    "available.balance": "Доступний баланс",
+    "settings": "Налаштування"
+  },
+  "cardRange": {
+    "startRange": "Початок",
+    "endRange": "Кінець"
+  },
+  "eventStatuses": {
+    "vacation": "Відпустка",
+    "sickness": "Хвороба",
+    "parentalLeave": "Відпустка по догляду за дитиною"
+  },
+  "categoryNames": {
+    "profile": "Профіль",
+    "requests": "Запити",
+    "changePassword": "Змінити пароль",
+    "edit.profile": "Редагувати профіль",
+    "contacts": "Контакти",
+    "children": "Діти",
+    "company.info": "Інформація про компанію",
+    "general.info": "Загальна інформація",
+    "employees.equipment": "Техніка співробітника",
+    "technology.requests": "Запити на техніку",
+    "archive.requests": "Архів запитів",
+    "statistic": "Статистика"
+  },
+  "companyInfo": {
+    "position": "Позиція",
+    "status": "Статус",
+    "form.of.employment": "Форма працевлаштування",
+    "language": "Мова",
+    "assignee.hr": "Закріплений HR",
+    "assignee.pm": "Закріплений PM",
+    "assignee.sales": "Закріплений Sales",
+    "probation.status": "Статус випробувального терміну",
+    "birth.date": "Дата народження",
+    "country": "Країна"
+  },
+  "warehouseCategories": {
+    "inventory.number": "Інвентарний номер",
+    "name": "Назва",
+    "model": "Модель",
+    "condition": "Стан",
+    "date_of_issue": "Дата видачі",
+    "date_of_receiving": "Дата отримання",
+    "date_of_request": "Дата запиту",
+    "type": "Тип обладнення",
+    "status": "Статус",
+    "warehouse": "Склад",
+    "all.technique": "Вся техніка",
+    "add.technique": "Додати техніку",
+    "price": "Ціна",
+    "comment": "Коментар"
+  },
+  "balanceCategories": {
+    "vacation": "Відпустка",
+    "sickness": "Лікарняний",
+    "home.office": "Робота з дому",
+    "parental.leave": "Відпустка по догляду за дитиною",
+    "day.off": "Вихідний",
+    "business": "Відрядження"
+  },
+  "requestsCategory": {
+    "request.type": "Тип запиту",
+    "start.date": "Дата початку",
+    "end.date": "Дата закінчення",
+    "requested.days": "Кількість днів",
+    "assignee": "Відповідальний",
+    "status": "Статус",
+    "add.request": "Додати запит",
+    "type.request": "Тип запиту",
+    "new.request": "Новий запит",
+    "comment": "Коментар",
+    "type.smth": "Залиште коментар, якщо це необхідно",
+    "vacation.requests": "Відпустка і запити"
+  },
+  "password": {
+    "old": "Поточний пароль",
+    "new": "Новий пароль",
+    "repeat": "Повторіть пароль",
+    "reset": "Скинути пароль"
+  },
+  "buttons": {
+    "send": "Відправити",
+    "cancel": "Відмінити",
+    "login": "Увійти",
+    "submit": "Відправити",
+    "update": "Оновити"
+  },
+  "languages": {
+    "en": "Aнгл",
+    "ru": "Рус",
+    "ua": "Укр"
+  },
+  "user": {
+    "fullname": "Повне імʼя",
+    "position": "Позиція",
+    "technologies": "Технології",
+    "languages": "Мови",
+    "assigne": "Привязʼязаний до",
+    "dateAdded": "Дата додавання"
+  },
+  "form": {
+    "validation": {
+      "must.be.valid.email": "Має бути дійсна електронна адреса",
+      "field.required": "Поле обов'язкове для заповнення",
+      "length.must.eight": "Мінімальна довжина пароля 8",
+      "wrong.email.format": "Неправильний формат електронної пошти"
+    }
+  },
+  "welcomeBack": "Привіт, раді бачити знову"
+}

@@ -1,0 +1,33 @@
+{
+  "testing": {
+    "testingKey": "Цей текст повинен бути на укр."
+  },
+  "categoriesNames": {
+    "employeesOnProbation": "Працівники на випробувальному терміні",
+    "requestsForApproval": "Запити на затвердження"
+  },
+  "meetingCards": {
+    "today.meetings": "Сьогоднішні зустрічі",
+    "welcome.meeting": "Велком зустріч",
+    "adaptation.meeting": "Адаптаційна зустріч",
+    "probation.meeting": "Пробейшн зустріч",
+    "performance.review": "Зустріч щодо оцінки результатів роботи",
+    "one.on.one": "1:1",
+    "exit.interview": "Зустріч перед уходом з компанії",
+    "tomorrow": "Завтра",
+    "current.week": "Поточний тиждень",
+    "next.week": "Наступний тиждень",
+    "current.month": "Поточний місяць"
+  },
+  "eventCards": {
+    "birthdays": "Дні народження",
+    "anniversary": "Річниці",
+    "kids.birthday": "Дні народження дітей"
+  },
+  "common": {
+    "s": "",
+    "son": "син",
+    "daughter": "дочка",
+    "y": "р"
+  }
+}

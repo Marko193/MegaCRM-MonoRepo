@@ -1,0 +1,51 @@
+{
+  "generalInfo": {
+    "name": "Имя",
+    "surname": "Фамилия",
+    "birthDate": "Дата рождения",
+    "inn": "ИНН",
+    "country": "Страна",
+    "city": "Город",
+    "children": "Дети",
+    "gender": "Пол",
+    "merchSize": "Размер товара",
+    "addedDate": "Дата добавления"
+  },
+  "buttons": {
+    "delete": "Удалить",
+    "back": "Назад",
+    "add": "Добавить",
+    "next": "Далее",
+    "upload": "Загрузить",
+    "create": "Создать"
+  },
+  "workInfo": {
+    "position": "Должность",
+    "level": "Уровень",
+    "formOfEmployment": "Форма трудоустройства",
+    "role": "Роль",
+    "status": "Статус",
+    "trial": "Испытательный срок",
+    "language": "Язык",
+    "technologies": "Технологии",
+    "assigneHr": "Привязать HR",
+    "assignePm": "Привязать PM",
+    "assigneSales": "Привязать Sales",
+    "rateM": "Ставка/месяц",
+    "expectedPayLevel": "Ожидаемая зарплата"
+  },
+  "contacts": {
+    "mainPhone": "Номер Телефона",
+    "additionalPhone": "Дополнительный Номер",
+    "personalEmail": "Электронная почта",
+    "corporateEmail": "Корпоративная почта",
+    "additionalEmail": "Дополнительная почта",
+    "emergencyContact": "Экстренный Контакт",
+    "emergencyPhone": "Экстренный номер"
+  },
+  "steps": {
+    "workInfo": "Навыки",
+    "generalInfo": "Основная информация",
+    "contacts": "Контакты"
+  }
+}

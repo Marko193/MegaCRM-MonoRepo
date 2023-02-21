@@ -1,0 +1,29 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "noPropertyAccessFromIndexSignature": false,
+    "jsx": "react-jsx",
+    "noUnusedLocals": true,
+    "allowJs": true,
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2017", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@mega-dev-crm/data-access": ["libs/data-access/index.ts"],
+      "@mega-dev-crm/features": ["libs/features/index.ts"],
+      "@mega-dev-crm/shared": ["libs/shared/index.ts"],
+      "@mega-dev-crm/utilities": ["libs/utilities/index.ts"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}

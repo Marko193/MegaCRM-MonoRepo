@@ -1,0 +1,33 @@
+{
+  "testing": {
+    "testingKey": "This text is used to test the app."
+  },
+  "categoriesNames": {
+    "employeesOnProbation": "Employees on probation",
+    "requestsForApproval": "Request for approval"
+  },
+  "meetingCards": {
+    "today.meetings": "Today's meetings",
+    "welcome.meeting": "Welcome meeting",
+    "adaptation.meeting": "Adaptation meeting",
+    "probation.meeting": "Probation meeting",
+    "performance.review": "Performance review",
+    "one.on.one": "1:1",
+    "exit.interview": "Exit interview",
+    "tomorrow": "Tomorrow",
+    "current.week": "Current week",
+    "next.week": "Next week",
+    "current.month": "Current month"
+  },
+  "eventCards": {
+    "birthdays": "Birthday",
+    "anniversary": "Anniversary",
+    "kids.birthday": "Kid's birthday"
+  },
+  "common": {
+    "s": "'s",
+    "son": "son",
+    "daughter": "daughter",
+    "y": "y"
+  }
+}

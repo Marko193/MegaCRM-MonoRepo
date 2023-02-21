@@ -1,0 +1,12 @@
+{
+  "general": {
+    "all": "All",
+    "new": "New",
+    "probation": "Probation",
+    "employees": "Employees",
+    "people": "People",
+    "s": "",
+    "add.employee": "Add employee",
+    "view.profile": "View profile"
+  }
+}

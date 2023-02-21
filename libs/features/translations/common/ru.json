@@ -1,0 +1,139 @@
+{
+  "testing": {
+    "testingKey": "Для тестирования локализации."
+  },
+  "signInButton": "Войти",
+
+  "menuItems": {
+    "delete": "Удалить",
+    "edit": "Редактировать",
+    "active/inactive": "Активировать/Деактивировать",
+    "profile": "Просмотреть профиль",
+    "resume": "Просмотреть резюме"
+  },
+
+  "profileCard": {
+    "d": "д",
+    "startDate": "Дата начала",
+    "endDate": "Дата окончания",
+    "accept": "Принять",
+    "decline": "Отклонить",
+    "approve": "Одобрить",
+    "reject": "Отклонить",
+    "day": "день",
+    "ofDay": "дня",
+    "ofDays": "дней"
+  },
+  "balanceCard": {
+    "available.balance": "Доступный баланс",
+    "settings": "Настройки"
+  },
+  "cardRange": {
+    "startRange": "Начало",
+    "endRange": "Конец"
+  },
+  "eventStatuses": {
+    "vacation": "Отпуск",
+    "sickness": "Болезнь",
+    "parentalLeave": "Отпуск по уходу за ребенком"
+  },
+  "categoryNames": {
+    "profile": "Профиль",
+    "requests": "Запросы",
+    "changePassword": "Изменить пароль",
+    "edit.profile": "Редактировать Профиль",
+    "contacts": "Контакты",
+    "children": "Дети",
+    "company.info": "Информация о компании",
+    "general.info": "Общая информация",
+    "employees.equipment": "Техника сотрудника",
+    "technology.requests": "Запросы техники",
+    "archive.requests": "Архив запросов",
+    "statistic": "Статистика"
+  },
+  "companyInfo": {
+    "position": "Позиция",
+    "status": "Статус",
+    "form.of.employment": "Форма трудоустройства",
+    "language": "Язык",
+    "assignee.hr": "Закрепленный HR",
+    "assignee.pm": "Закрепленный PM",
+    "assignee.sales": "Закрепленный Sales",
+    "probation.status": "Статус испытательного срока",
+    "birth.date": "Дата рождения",
+    "country": "Страна"
+  },
+  "warehouseCategories": {
+    "inventory.number": "Инвентарный номер",
+    "name": "Название",
+    "model": "Модель",
+    "condition": "Состояние",
+    "date_of_issue": "Дата выдачи",
+    "date_of_receiving": "Дата получения",
+    "date_of_request": "Дата запроса",
+    "type": "Тип оборудования",
+    "status": "Статус",
+    "warehouse": "Склад",
+    "all.technique": "Вся техника",
+    "add.technique": "Добавить технику",
+    "price": "Цена",
+    "comment": "Комментарий"
+  },
+  "balanceCategories": {
+    "vacation": "Отпуск",
+    "sickness": "Больничный",
+    "home.office": "Работа из дому",
+    "parental.leave": "Отпуск по уходу за ребенком",
+    "day.off": "Выходной",
+    "business": "Командировка"
+  },
+  "requestsCategory": {
+    "request.type": "Тип запроса",
+    "start.date": "Дата начала",
+    "end.date": "Дата окончания",
+    "requested.days": "Количество дней",
+    "assignee": "Ответственный",
+    "status": "Статус",
+    "add.request": "Добавить запрос",
+    "type.request": "Тип запроса",
+    "new.request": "Новый запрос",
+    "comment": "Комментарий",
+    "type.smth": "Оставьте комментарий, если это необходимо",
+    "vacation.requests": "Отпуск и запросы"
+  },
+  "password": {
+    "old": "Текущий пароль",
+    "new": "Новый пароль",
+    "repeat": "Повторите пароль",
+    "reset": "Сбросить пароль"
+  },
+  "buttons": {
+    "send": "Отправить",
+    "cancel": "Отменить",
+    "login": "Войти",
+    "submit": "Отправить",
+    "update": "Обновить"
+  },
+  "languages": {
+    "en": "Aнгл",
+    "ru": "Рус",
+    "ua": "Укр"
+  },
+  "user": {
+    "fullname": "Полное имя",
+    "position": "Позиция",
+    "technologies": "Технологии",
+    "languages": "Языки",
+    "assigne": "Привязан к",
+    "dateAdded": "Дата добавления"
+  },
+  "form": {
+    "validation": {
+      "must.be.valid.email": "Должен быть действующий адрес электронной почты",
+      "field.required": "Поле, обязательное для заполнения",
+      "length.must.eight": "Минимальная длина пароля 8",
+      "wrong.email.format": "Неверный формат электронной почты"
+    }
+  },
+  "welcomeBack": "Привет, с возвращением"
+}

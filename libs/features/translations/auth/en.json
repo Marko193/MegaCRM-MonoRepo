@@ -1,0 +1,28 @@
+{
+  "companyPage": {
+    "title": "Enter your company ID",
+    "subtitle": "Enter your details below"
+  },
+  "signInPage": {
+    "title": "Sign in to the system",
+    "subtitle": "Enter your details below"
+  },
+  "form": {
+    "signIn": {
+      "forgotPassword": "Forgot password?"
+    },
+    "forgotPassword": {
+      "forgotPasswordLabel": "Forgot Password",
+      "email": "Enter your email"
+    },
+    "confirmPassword": {
+      "confirmPasswordLabel": "Please update your password"
+    },
+    "emailLabel": "Email",
+    "passwordLabel": "Password"
+  },
+  "validation": {
+    "company.required": "Company ID is required",
+    "password.not.match": "Password does not match"
+  }
+}

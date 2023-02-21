@@ -1,0 +1,51 @@
+{
+  "generalInfo": {
+    "name": "Імʼя",
+    "surname": "Прізвище",
+    "birthDate": "Дата народження",
+    "inn": "ІПН",
+    "country": "Країна",
+    "city": "Місто",
+    "children": "Діти",
+    "gender": "Стать",
+    "merchSize": "Розмір товару",
+    "addedDate": "Дата додавання"
+  },
+  "buttons": {
+    "delete": "Видалити",
+    "back": "Назад",
+    "add": "Додати",
+    "next": "Далі",
+    "upload": "Завантажити",
+    "create": "Створити"
+  },
+  "workInfo": {
+    "position": "Посада",
+    "level": "Рівень",
+    "formOfEmployment": "Форма працевлаштування",
+    "role": "Роль",
+    "status": "Статус",
+    "trial": "Випробувальний термін",
+    "language": "Мова",
+    "technologies": "Технології",
+    "assigneHr": "Привʼязати HR",
+    "assignePm": "Привʼязати PM",
+    "assigneSales": "Привʼязати Sales",
+    "rateM": "Ставка/місяць",
+    "expectedPayLevel": "Очікувана зарплатня"
+  },
+  "contacts": {
+    "mainPhone": "Номер Телефону",
+    "additionalPhone": "Додатковий Номер",
+    "personalEmail": "Електронна Пошта",
+    "corporateEmail": "Корпоративна Пошта",
+    "additionalEmail": "Додаткова пошта",
+    "emergencyContact": "Екстренний контакт",
+    "emergencyPhone": "Екстренни номер"
+  },
+  "steps": {
+    "workInfo": "Навички",
+    "generalInfo": "Основна інформація",
+    "contacts": "Контакти"
+  }
+}

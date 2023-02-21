@@ -1,0 +1,33 @@
+{
+  "testing": {
+    "testingKey": "Для тестирования локализации."
+  },
+  "categoriesNames": {
+    "employeesOnProbation": "Работники на испытательном сроке",
+    "requestsForApproval": "Запросы на утверждение"
+  },
+  "meetingCards": {
+    "today.meetings": "Сегодняшние встречи",
+    "welcome.meeting": "Велком встреча",
+    "adaptation.meeting": "Адаптационная встреча",
+    "probation.meeting": "Пробейшн встреча",
+    "performance.review": "Встреча по оценке результатов работы",
+    "one.on.one": "1:1",
+    "exit.interview": "Встреча перед уходом из компании",
+    "tomorrow": "Завтра",
+    "current.week": "Текущая неделя",
+    "next.week": "Следующая неделя",
+    "current.month": "Текущий месяц"
+  },
+  "eventCards": {
+    "birthdays": "Дни рождения",
+    "anniversary": "Годовщины",
+    "kids.birthday": "Дни рождения детей"
+  },
+  "common": {
+    "s": "",
+    "son": "сын",
+    "daughter": "дочка",
+    "y": "г"
+  }
+}

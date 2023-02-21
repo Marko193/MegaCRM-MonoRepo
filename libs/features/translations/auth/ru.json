@@ -1,0 +1,28 @@
+{
+  "companyPage": {
+    "title": "Введите ваш Company ID",
+    "subtitle": "Введите необходимую информацию ниже"
+  },
+  "signInPage": {
+    "title": "Войти в систему",
+    "subtitle": "Введите необходимую информацию ниже"
+  },
+  "form": {
+    "signIn": {
+      "forgotPassword": "Забыли пароль?"
+    },
+    "forgotPassword": {
+      "forgotPasswordLabel": "Восстановить пароль",
+      "email": "Введите ваш емейл"
+    },
+    "confirmPassword": {
+      "confirmPasswordLabel": "Пожалуйста обновите ваш пароль"
+    },
+    "emailLabel": "Емейл",
+    "passwordLabel": "Пароль"
+  },
+  "validation": {
+    "company.required": "Необходимо ввести Company ID",
+    "password.not.match": "Пароль не совпадает"
+  }
+}
