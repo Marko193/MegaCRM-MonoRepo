@@ -10,7 +10,8 @@ import {Mutex} from 'async-mutex';
 import axios from 'axios';
 
 const mutex = new Mutex();
-const BASE_URL = 'https://v2-dev.mega-hub.io/api/';
+// const BASE_URL = 'https://v2-dev.mega-hub.io/api/';
+const BASE_URL = 'http://localhost:8080/api/';
 
 const baseQuery = fetchBaseQuery({
   baseUrl: BASE_URL,

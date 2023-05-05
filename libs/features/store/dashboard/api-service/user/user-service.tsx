@@ -2,7 +2,8 @@ import {createApi, fetchBaseQuery} from '@reduxjs/toolkit/dist/query/react';
 
 export const userApi = createApi({
   reducerPath: 'userApi',
-  baseQuery: fetchBaseQuery({baseUrl: 'https://v2-dev.mega-hub.io/api'}),
+  // baseQuery: fetchBaseQuery({baseUrl: 'https://v2-dev.mega-hub.io/api'}),
+  baseQuery: fetchBaseQuery({baseUrl: 'http://localhost:8080/api'}),
   endpoints: (build) => ({
     fetchAllUsers: build.query({
       query: () => ({
